@@ -2,6 +2,8 @@ import React from "react";
 import Navigacija from "./Navigacija";
 import { Container, Card, Button, Row, Col } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import '../App.css';
+
 
 const ProjectsPage = () => {
     const navigation = useNavigate();
